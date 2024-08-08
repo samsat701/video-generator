@@ -8,5 +8,4 @@ def download_image(prompt):
     if response.status_code == 200:
         return Image.open(io.BytesIO(response.content))
     else:
-        print(f"Failed to download image for prompt: {prompt}")
         return None

@@ -2,6 +2,7 @@ import numpy as np
 from gtts import gTTS
 from moviepy.editor import ImageClip, concatenate_videoclips, AudioFileClip
 from tempfile import NamedTemporaryFile
+import os
 
 def create_video(images, texts, output_path):
     clips = []
