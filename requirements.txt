@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+requests
+gtts
+moviepy
+pillow
+numpy
+google-generativeai
